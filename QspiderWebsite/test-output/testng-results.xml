@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="18" passed="15" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-23T14:02:04 IST" name="Suite" finished-at="2026-10-23T14:05:13 IST" duration-ms="188833">
+    <groups>
+    </groups>
+    <test started-at="2026-10-23T14:02:04 IST" name="Test" finished-at="2026-10-23T14:05:13 IST" duration-ms="188833">
+      <class name="QspiderDemoTestScriptAssignment.FormValidation">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:QspiderDemoTestScriptAssignment.FormValidation@7817fd62]" started-at="2026-10-23T14:05:06 IST" name="precondition" finished-at="2026-10-23T14:05:09 IST" duration-ms="2994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="tc_10()[pri:0, instance:QspiderDemoTestScriptAssignment.FormValidation@7817fd62]" started-at="2026-10-23T14:05:09 IST" name="tc_10" finished-at="2026-10-23T14:05:13 IST" duration-ms="3462" status="FAIL">
+          <exception class="org.openqa.selenium.InvalidArgumentException">
+            <message>
+              <![CDATA[invalid argument: File not found : C:\Users\HP\Desktop.pdf
+  (Session info: chrome=155.0.8059.85)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [28c70028a2fd94563e675f2fbe2a46dc, sendKeysToElement {value=[Ljava.lang.CharSequence;@b0a1231, id=f.0EC61F7F8FEB01B752B511FE31A24C4A.d.82CD4D490B6D8DF0B424A48DC07EF3AF.e.22}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.85, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65284}, goog:processID: 3664, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65284/devtoo..., se:cdpVersion: 155.0.8059.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (28c70028a2fd94563e675f2fbe2a46dc)] -> xpath: //input[@type='file']]
+Session ID: 28c70028a2fd94563e675f2fbe2a46dc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\Users\HP\Desktop.pdf
+  (Session info: chrome=155.0.8059.85)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [28c70028a2fd94563e675f2fbe2a46dc, sendKeysToElement {value=[Ljava.lang.CharSequence;@b0a1231, id=f.0EC61F7F8FEB01B752B511FE31A24C4A.d.82CD4D490B6D8DF0B424A48DC07EF3AF.e.22}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.85, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65284}, goog:processID: 3664, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65284/devtoo..., se:cdpVersion: 155.0.8059.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (28c70028a2fd94563e675f2fbe2a46dc)] -> xpath: //input[@type='file']]
+Session ID: 28c70028a2fd94563e675f2fbe2a46dc
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+at QspiderDemoTestScriptAssignment.FormValidation.tc_10(FormValidation.java:29)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_10 -->
+        <test-method signature="testApp()[pri:0, instance:QspiderDemoTestScriptAssignment.FormValidation@7817fd62]" started-at="2026-10-23T14:05:13 IST" name="testApp" finished-at="2026-10-23T14:05:13 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:QspiderDemoTestScriptAssignment.FormValidation@7817fd62]" started-at="2026-10-23T14:05:13 IST" name="postCondition" finished-at="2026-10-23T14:05:13 IST" duration-ms="372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- QspiderDemoTestScriptAssignment.FormValidation -->
+      <class name="QspiderDemoTestScriptAssignment.WebTable">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:QspiderDemoTestScriptAssignment.WebTable@510f3d34]" started-at="2026-10-23T14:04:15 IST" name="precondition" finished-at="2026-10-23T14:04:17 IST" duration-ms="2699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="tc_09()[pri:0, instance:QspiderDemoTestScriptAssignment.WebTable@510f3d34]" started-at="2026-10-23T14:04:17 IST" name="tc_09" finished-at="2026-10-23T14:05:06 IST" duration-ms="48320" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <div class="no-use">...</div> is not clickable at point (1401, 304). Other element would receive the click: <div class="fixed top-0 right-0 w-full h-full z-[5000] bg-black opacity-50"></div>
+  (Session info: chrome=155.0.8059.85)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3ae39e27bc7b3f13c1e208eb91d71505, clickElement {id=f.32221A832A6806BB0F879A2FAB248799.d.D2113099E7EE36C2164A3DDD399FE792.e.613}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.85, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52088}, goog:processID: 1788, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52088/devtoo..., se:cdpVersion: 155.0.8059.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (3ae39e27bc7b3f13c1e208eb91d71505)] -> xpath: (//div[@class='no-use'])[6]]
+Session ID: 3ae39e27bc7b3f13c1e208eb91d71505]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="no-use">...</div> is not clickable at point (1401, 304). Other element would receive the click: <div class="fixed top-0 right-0 w-full h-full z-[5000] bg-black opacity-50"></div>
+  (Session info: chrome=155.0.8059.85)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3ae39e27bc7b3f13c1e208eb91d71505, clickElement {id=f.32221A832A6806BB0F879A2FAB248799.d.D2113099E7EE36C2164A3DDD399FE792.e.613}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.85, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52088}, goog:processID: 1788, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52088/devtoo..., se:cdpVersion: 155.0.8059.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (3ae39e27bc7b3f13c1e208eb91d71505)] -> xpath: (//div[@class='no-use'])[6]]
+Session ID: 3ae39e27bc7b3f13c1e208eb91d71505
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at QspiderDemoTestScriptAssignment.WebTable.tc_09(WebTable.java:85)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_09 -->
+        <test-method signature="testApp()[pri:0, instance:QspiderDemoTestScriptAssignment.WebTable@510f3d34]" started-at="2026-10-23T14:05:06 IST" name="testApp" finished-at="2026-10-23T14:05:06 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:QspiderDemoTestScriptAssignment.WebTable@510f3d34]" started-at="2026-10-23T14:05:06 IST" name="postCondition" finished-at="2026-10-23T14:05:06 IST" duration-ms="537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- QspiderDemoTestScriptAssignment.WebTable -->
+      <class name="QspiderDemoTestScriptAssignment.Button">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:QspiderDemoTestScriptAssignment.Button@2925bf5b]" started-at="2026-10-23T14:02:15 IST" name="precondition" finished-at="2026-10-23T14:02:18 IST" duration-ms="3080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="tc_02()[pri:0, instance:QspiderDemoTestScriptAssignment.Button@2925bf5b]" started-at="2026-10-23T14:02:18 IST" name="tc_02" finished-at="2026-10-23T14:02:38 IST" duration-ms="19884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_02 -->
+        <test-method signature="testApp()[pri:0, instance:QspiderDemoTestScriptAssignment.Button@2925bf5b]" started-at="2026-10-23T14:02:38 IST" name="testApp" finished-at="2026-10-23T14:02:38 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:QspiderDemoTestScriptAssignment.Button@2925bf5b]" started-at="2026-10-23T14:02:38 IST" name="postCondition" finished-at="2026-10-23T14:02:38 IST" duration-ms="443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- QspiderDemoTestScriptAssignment.Button -->
+      <class name="QspiderDemoTestScriptAssignment.RadioButton">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:QspiderDemoTestScriptAssignment.RadioButton@65e98b1c]" started-at="2026-10-23T14:03:35 IST" name="precondition" finished-at="2026-10-23T14:03:39 IST" duration-ms="4510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="tc_05()[pri:0, instance:QspiderDemoTestScriptAssignment.RadioButton@65e98b1c]" started-at="2026-10-23T14:03:39 IST" name="tc_05" finished-at="2026-10-23T14:03:50 IST" duration-ms="10517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_05 -->
+        <test-method signature="testApp()[pri:0, instance:QspiderDemoTestScriptAssignment.RadioButton@65e98b1c]" started-at="2026-10-23T14:03:50 IST" name="testApp" finished-at="2026-10-23T14:03:50 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:QspiderDemoTestScriptAssignment.RadioButton@65e98b1c]" started-at="2026-10-23T14:03:50 IST" name="postCondition" finished-at="2026-10-23T14:03:50 IST" duration-ms="464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- QspiderDemoTestScriptAssignment.RadioButton -->
+      <class name="QspiderDemoTestScriptAssignment.Toggle">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:QspiderDemoTestScriptAssignment.Toggle@6ad82709]" started-at="2026-10-23T14:04:05 IST" name="precondition" finished-at="2026-10-23T14:04:08 IST" duration-ms="3040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="tc_07()[pri:0, instance:QspiderDemoTestScriptAssignment.Toggle@6ad82709]" started-at="2026-10-23T14:04:08 IST" name="tc_07" finished-at="2026-10-23T14:04:14 IST" duration-ms="6067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_07 -->
+        <test-method signature="testApp()[pri:0, instance:QspiderDemoTestScriptAssignment.Toggle@6ad82709]" started-at="2026-10-23T14:04:14 IST" name="testApp" finished-at="2026-10-23T14:04:14 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:QspiderDemoTestScriptAssignment.Toggle@6ad82709]" started-at="2026-10-23T14:04:14 IST" name="postCondition" finished-at="2026-10-23T14:04:15 IST" duration-ms="365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- QspiderDemoTestScriptAssignment.Toggle -->
+      <class name="QspiderDemoTestScriptAssignment.Link">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:QspiderDemoTestScriptAssignment.Link@710f4dc7]" started-at="2026-10-23T14:02:38 IST" name="precondition" finished-at="2026-10-23T14:02:41 IST" duration-ms="2928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="tc_03()[pri:0, instance:QspiderDemoTestScriptAssignment.Link@710f4dc7]" started-at="2026-10-23T14:02:41 IST" name="tc_03" finished-at="2026-10-23T14:03:16 IST" duration-ms="34898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_03 -->
+        <test-method signature="testApp()[pri:0, instance:QspiderDemoTestScriptAssignment.Link@710f4dc7]" started-at="2026-10-23T14:03:16 IST" name="testApp" finished-at="2026-10-23T14:03:16 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:QspiderDemoTestScriptAssignment.Link@710f4dc7]" started-at="2026-10-23T14:03:16 IST" name="postCondition" finished-at="2026-10-23T14:03:16 IST" duration-ms="457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- QspiderDemoTestScriptAssignment.Link -->
+      <class name="QspiderDemoTestScriptAssignment.TextField">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:QspiderDemoTestScriptAssignment.TextField@3a52dba3]" started-at="2026-10-23T14:02:04 IST" name="precondition" finished-at="2026-10-23T14:02:14 IST" duration-ms="9790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="testApp()[pri:0, instance:QspiderDemoTestScriptAssignment.TextField@3a52dba3]" started-at="2026-10-23T14:02:14 IST" name="testApp" finished-at="2026-10-23T14:02:14 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:QspiderDemoTestScriptAssignment.TextField@3a52dba3]" started-at="2026-10-23T14:02:14 IST" name="postCondition" finished-at="2026-10-23T14:02:15 IST" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- QspiderDemoTestScriptAssignment.TextField -->
+      <class name="QspiderDemoTestScriptAssignment.CheckBox">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:QspiderDemoTestScriptAssignment.CheckBox@1ff4931d]" started-at="2026-10-23T14:03:16 IST" name="precondition" finished-at="2026-10-23T14:03:19 IST" duration-ms="2871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="tc_04()[pri:0, instance:QspiderDemoTestScriptAssignment.CheckBox@1ff4931d]" started-at="2026-10-23T14:03:19 IST" name="tc_04" finished-at="2026-10-23T14:03:34 IST" duration-ms="14804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_04 -->
+        <test-method signature="testApp()[pri:0, instance:QspiderDemoTestScriptAssignment.CheckBox@1ff4931d]" started-at="2026-10-23T14:03:34 IST" name="testApp" finished-at="2026-10-23T14:03:34 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:QspiderDemoTestScriptAssignment.CheckBox@1ff4931d]" started-at="2026-10-23T14:03:34 IST" name="postCondition" finished-at="2026-10-23T14:03:35 IST" duration-ms="402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- QspiderDemoTestScriptAssignment.CheckBox -->
+      <class name="QspiderDemoTestScriptAssignment.Image">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:QspiderDemoTestScriptAssignment.Image@61322f9d]" started-at="2026-10-23T14:03:50 IST" name="precondition" finished-at="2026-10-23T14:03:53 IST" duration-ms="2875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="tc_06()[pri:0, instance:QspiderDemoTestScriptAssignment.Image@61322f9d]" started-at="2026-10-23T14:03:53 IST" name="tc_06" finished-at="2026-10-23T14:04:05 IST" duration-ms="11893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_06 -->
+        <test-method signature="testApp()[pri:0, instance:QspiderDemoTestScriptAssignment.Image@61322f9d]" started-at="2026-10-23T14:04:05 IST" name="testApp" finished-at="2026-10-23T14:04:05 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:QspiderDemoTestScriptAssignment.Image@61322f9d]" started-at="2026-10-23T14:04:05 IST" name="postCondition" finished-at="2026-10-23T14:04:05 IST" duration-ms="391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- QspiderDemoTestScriptAssignment.Image -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
